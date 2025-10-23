@@ -37,7 +37,7 @@ export default defineConfig({
       port: 8080,
       proxy: {
         "/api": {
-          target: "http://api.hrmsworld.in",
+          target: "http://localhost:3000",
           changeOrigin: true,
         },
       },
